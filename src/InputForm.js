@@ -17,7 +17,7 @@ class InputForm extends Component {
 	}
 
   handleSubmit(event) {
-  	var url = 'http://localhost:8080/post';
+  	var url = 'http://chat.kyru.net/post';
   	var self = this;
   	var data = {
   		'username' : this.state.username,

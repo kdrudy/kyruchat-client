@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   getPosts() {
-    var url = 'http://localhost:8080/posts?page=' + this.state.page + '&size=' + this.state.size;
+    var url = 'http://chat.kyru.net/posts?page=' + this.state.page + '&size=' + this.state.size;
     fetch(url)
       .then(res => res.json())
       .then(
